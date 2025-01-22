@@ -1,11 +1,11 @@
-# Copyright (C) 2024 Restrict Content
+# Copyright (C) 2025 Restrict Content
 # This file is distributed under the same license as the Restrict Content package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Restrict Content 3.2.13\n"
+"Project-Id-Version: Restrict Content 3.2.14\n"
 "Report-Msgid-Bugs-To: http://ithemes.com/support/\n"
-"POT-Creation-Date: 2024-11-18 18:42:36+00:00\n"
-"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2025-01-22 19:36:31+00:00\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -925,11 +925,11 @@ msgid "Restrict Content Pro is a simple, yet powerful WordPress membership plugi
 msgstr ""
 
 #: core/includes/admin/admin-pages.php:630
-msgid "Start your membership site and create multiple Membership Levels and collect payments with Stripe, PayPal, Braintree or Authorize.net."
+msgid "Start your membership site and create multiple Membership Levels and collect payments with Stripe, PayPal or Braintree."
 msgstr ""
 
 #: core/includes/admin/admin-pages.php:636
-msgid "Collect Payments with Stripe, PayPal, Braintree or Authorize.net"
+msgid "Collect Payments with Stripe, PayPal or Braintree"
 msgstr ""
 
 #: core/includes/admin/admin-pages.php:641
@@ -1905,6 +1905,7 @@ msgstr ""
 
 #: core/includes/admin/help/help-menus-setup.php:47
 #: core/includes/admin/memberships/edit-membership.php:61
+#: core/templates/register-total-details.php:39
 msgid "Membership Details"
 msgstr ""
 
@@ -3868,10 +3869,10 @@ msgstr ""
 #: core/includes/class-rcp-emails.php:266 core/includes/email-functions.php:93
 #: core/includes/email-functions.php:126 core/includes/email-functions.php:160
 #: core/includes/email-functions.php:193 core/includes/email-functions.php:229
-#: core/includes/email-functions.php:625 core/includes/install.php:349
-#: core/includes/install.php:363 core/includes/install.php:377
-#: core/includes/install.php:391 core/includes/install.php:406
-#: core/includes/install.php:429
+#: core/includes/email-functions.php:625 core/includes/install.php:357
+#: core/includes/install.php:371 core/includes/install.php:385
+#: core/includes/install.php:399 core/includes/install.php:414
+#: core/includes/install.php:437
 msgid "Hello"
 msgstr ""
 
@@ -4321,7 +4322,7 @@ msgid "Hide Restricted Posts"
 msgstr ""
 
 #: core/includes/admin/settings/settings.php:987
-msgid "Check this to hide all restricted posts from queries when the user does not have access."
+msgid "Check this to hide all restricted posts from queries when the user does not have access. (Recommended)"
 msgstr ""
 
 #: core/includes/admin/settings/settings.php:992
@@ -5640,21 +5641,21 @@ msgstr ""
 #: core/includes/email-functions.php:95 core/includes/email-functions.php:128
 #: core/includes/email-functions.php:162 core/includes/email-functions.php:195
 #: core/includes/email-functions.php:231 core/includes/email-functions.php:627
-#: core/includes/install.php:352 core/includes/install.php:366
-#: core/includes/install.php:380 core/includes/install.php:395
-#: core/includes/install.php:409 core/includes/install.php:431
+#: core/includes/install.php:360 core/includes/install.php:374
+#: core/includes/install.php:388 core/includes/install.php:403
+#: core/includes/install.php:417 core/includes/install.php:439
 msgid "Thank you"
 msgstr ""
 
-#: core/includes/email-functions.php:99 core/includes/install.php:348
+#: core/includes/email-functions.php:99 core/includes/install.php:356
 msgid "New membership on %s"
 msgstr ""
 
-#: core/includes/email-functions.php:132 core/includes/install.php:362
+#: core/includes/email-functions.php:132 core/includes/install.php:370
 msgid "New free membership on %s"
 msgstr ""
 
-#: core/includes/email-functions.php:166 core/includes/install.php:376
+#: core/includes/email-functions.php:166 core/includes/install.php:384
 msgid "New trial membership on %s"
 msgstr ""
 
@@ -5666,7 +5667,7 @@ msgstr ""
 msgid "Their membership level was"
 msgstr ""
 
-#: core/includes/email-functions.php:199 core/includes/install.php:390
+#: core/includes/email-functions.php:199 core/includes/install.php:398
 msgid "Cancelled membership on %s"
 msgstr ""
 
@@ -5674,7 +5675,7 @@ msgstr ""
 msgid "membership has expired"
 msgstr ""
 
-#: core/includes/email-functions.php:235 core/includes/install.php:405
+#: core/includes/email-functions.php:235 core/includes/install.php:413
 msgid "Expired membership on %s"
 msgstr ""
 
@@ -5957,7 +5958,7 @@ msgstr ""
 msgid "Payment gateway doesn't support renewal date changes."
 msgstr ""
 
-#: core/includes/gateways/gateway-functions.php:154
+#: core/includes/gateways/gateway-functions.php:153
 msgid "Ajax payment is not supported by this payment method."
 msgstr ""
 
@@ -6097,131 +6098,131 @@ msgstr ""
 msgid "Setup attempt failed."
 msgstr ""
 
-#: core/includes/install.php:205 core/includes/scripts.php:291
+#: core/includes/install.php:213 core/includes/scripts.php:291
 #: legacy/includes/forms.php:529 legacy/includes/scripts.php:38
 msgid "Register"
 msgstr ""
 
-#: core/includes/install.php:217 legacy/includes/settings.php:189
+#: core/includes/install.php:225 legacy/includes/settings.php:189
 msgid "Welcome"
 msgstr ""
 
-#: core/includes/install.php:218
+#: core/includes/install.php:226
 msgid "Welcome! This is your success page where members are redirected after completing their registration."
 msgstr ""
 
-#: core/includes/install.php:243
+#: core/includes/install.php:251
 msgid "Your Membership"
 msgstr ""
 
-#: core/includes/install.php:270
+#: core/includes/install.php:278
 msgid "Edit Your Profile"
 msgstr ""
 
-#: core/includes/install.php:297
+#: core/includes/install.php:305
 msgid "Update Billing Card"
 msgstr ""
 
-#: core/includes/install.php:335
+#: core/includes/install.php:343
 msgid "Please verify your email address"
 msgstr ""
 
-#: core/includes/install.php:336
+#: core/includes/install.php:344
 msgid "Hi %s,"
 msgstr ""
 
-#: core/includes/install.php:337
+#: core/includes/install.php:345
 msgid "Please click here to verify your email address:"
-msgstr ""
-
-#: core/includes/install.php:342 core/includes/install.php:356
-#: core/includes/install.php:370
-msgid "Your %s membership has been activated"
-msgstr ""
-
-#: core/includes/install.php:343 core/includes/install.php:357
-#: core/includes/install.php:371 core/includes/install.php:385
-#: core/includes/install.php:400 core/includes/install.php:414
-#: core/includes/install.php:422
-msgid "Hi %displayname%,"
-msgstr ""
-
-#: core/includes/install.php:344 core/includes/install.php:358
-#: core/includes/install.php:372
-msgid "Your %s membership has been activated."
 msgstr ""
 
 #: core/includes/install.php:350 core/includes/install.php:364
 #: core/includes/install.php:378
-msgid "%s (%s) is now a member of %s"
+msgid "Your %s membership has been activated"
 msgstr ""
 
 #: core/includes/install.php:351 core/includes/install.php:365
-#: core/includes/install.php:379
+#: core/includes/install.php:379 core/includes/install.php:393
+#: core/includes/install.php:408 core/includes/install.php:422
+#: core/includes/install.php:430
+msgid "Hi %displayname%,"
+msgstr ""
+
+#: core/includes/install.php:352 core/includes/install.php:366
+#: core/includes/install.php:380
+msgid "Your %s membership has been activated."
+msgstr ""
+
+#: core/includes/install.php:358 core/includes/install.php:372
+#: core/includes/install.php:386
+msgid "%s (%s) is now a member of %s"
+msgstr ""
+
+#: core/includes/install.php:359 core/includes/install.php:373
+#: core/includes/install.php:387
 msgid "Membership level: %s"
 msgstr ""
 
-#: core/includes/install.php:384
+#: core/includes/install.php:392
 msgid "Your %s membership has been cancelled"
 msgstr ""
 
-#: core/includes/install.php:386
+#: core/includes/install.php:394
 msgid "Your %s membership has been cancelled. You will retain access to content until %s."
 msgstr ""
 
-#: core/includes/install.php:392
+#: core/includes/install.php:400
 msgid "%s (%s) has cancelled their membership to %s"
 msgstr ""
 
-#: core/includes/install.php:393 core/includes/install.php:408
+#: core/includes/install.php:401 core/includes/install.php:416
 msgid "Their membership level was: %s"
 msgstr ""
 
-#: core/includes/install.php:394
+#: core/includes/install.php:402
 msgid "They will retain access until: %s"
 msgstr ""
 
-#: core/includes/install.php:399
+#: core/includes/install.php:407
 msgid "Your %s membership has expired"
 msgstr ""
 
-#: core/includes/install.php:401
+#: core/includes/install.php:409
 msgid "Your %s membership has expired."
 msgstr ""
 
-#: core/includes/install.php:407
+#: core/includes/install.php:415
 msgid "%s's (%s) membership has expired."
 msgstr ""
 
-#: core/includes/install.php:413
+#: core/includes/install.php:421
 msgid "Your %s payment has been received"
 msgstr ""
 
-#: core/includes/install.php:415
+#: core/includes/install.php:423
 msgid "Your %s payment has been received."
 msgstr ""
 
-#: core/includes/install.php:416
+#: core/includes/install.php:424
 msgid "Payment Amount: "
 msgstr ""
 
-#: core/includes/install.php:417
+#: core/includes/install.php:425
 msgid "Invoice: "
 msgstr ""
 
-#: core/includes/install.php:421
+#: core/includes/install.php:429
 msgid "Your %s payment could not be processed"
 msgstr ""
 
-#: core/includes/install.php:423
+#: core/includes/install.php:431
 msgid "Your %s renewal payment could not be processed. Please log in and update your billing information so we can reattempt payment."
 msgstr ""
 
-#: core/includes/install.php:428
+#: core/includes/install.php:436
 msgid "Renewal payment failed on %s"
 msgstr ""
 
-#: core/includes/install.php:430
+#: core/includes/install.php:438
 msgid "%s's (%s) renewal payment failed to be processed."
 msgstr ""
 
@@ -6240,7 +6241,7 @@ msgstr ""
 #. translators:%1\$s: The user name.
 
 #: core/includes/integrations/class-rcp-telemetry.php:93
-msgid "Hi, %1$s! This is an invitation to help our %2$s community. If you opt-in, some data about your usage of %3$s will be shared with our teams (so they can work their butts off to improve). We will also share some helpful info on membership site management, WordPress, and our products from time to time. And if you skip this, that's okay! %4$s will still work just fine."
+msgid "Hi, %1$s! This is an invitation to help our %2$s community. If you opt in, some data about your usage of %3$s will be shared with our teams. We will also share some helpful info on membership site management, WordPress, and our products from time to time. And if you skip this, that's okay! %4$s will still work just fine."
 msgstr ""
 
 #. translators: %s: The user name.
@@ -6264,7 +6265,7 @@ msgstr ""
 #. translators: %s: The admin URL.
 
 #: core/includes/integrations/class-rcp-telemetry.php:139
-msgid "<a href=\"%1$s\" alt=\"%2$s\">Opt-In</a>"
+msgid "<a href=\"%1$s\" alt=\"%2$s\">Opt In</a>"
 msgstr ""
 
 #. translators: %s: The Opt-Out alt text.
@@ -7382,6 +7383,10 @@ msgstr ""
 msgid "Your %s membership has expired. <a href=\"%s\">Update your payment method</a> to reactivate and renew your membership."
 msgstr ""
 
+#: core/templates/subscription.php:66
+msgid "Account Overview"
+msgstr ""
+
 #: core/templates/subscription.php:72 core/templates/subscription.php:89
 msgid "Expiration/Renewal Date"
 msgstr ""
@@ -7420,6 +7425,10 @@ msgstr ""
 
 #: core/templates/subscription.php:210
 msgid "You do not have any memberships."
+msgstr ""
+
+#: core/templates/subscription.php:215
+msgid "Payment History"
 msgstr ""
 
 #: core/templates/subscription.php:219 core/templates/subscription.php:233
