@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the Restrict Content package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Restrict Content 3.2.20\n"
+"Project-Id-Version: Restrict Content 3.2.21\n"
 "Report-Msgid-Bugs-To: http://ithemes.com/support/\n"
-"POT-Creation-Date: 2026-02-11 14:47:08+00:00\n"
+"POT-Creation-Date: 2026-02-12 16:59:02+00:00\n"
 "PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -575,9 +575,9 @@ msgstr ""
 #: core/includes/memberships/membership-actions.php:45
 #: core/includes/memberships/membership-actions.php:99
 #: core/includes/memberships/membership-actions.php:165
-#: core/includes/registration-functions.php:299
-#: core/includes/registration-functions.php:304
-#: core/includes/registration-functions.php:309
+#: core/includes/registration-functions.php:320
+#: core/includes/registration-functions.php:325
+#: core/includes/registration-functions.php:330
 #: core/includes/user-page-columns.php:136
 msgid "Error"
 msgstr ""
@@ -1300,9 +1300,9 @@ msgstr ""
 #: core/includes/memberships/membership-actions.php:45
 #: core/includes/memberships/membership-actions.php:99
 #: core/includes/memberships/membership-actions.php:165
-#: core/includes/registration-functions.php:299
-#: core/includes/registration-functions.php:304
-#: core/includes/registration-functions.php:309
+#: core/includes/registration-functions.php:320
+#: core/includes/registration-functions.php:325
+#: core/includes/registration-functions.php:330
 #: core/includes/shortcodes.php:714 core/includes/user-page-columns.php:136
 msgid "You do not have permission to perform this action."
 msgstr ""
@@ -6016,7 +6016,7 @@ msgid "User does not have any saved payment methods."
 msgstr ""
 
 #: core/includes/gateways/stripe/functions.php:797
-#: core/includes/registration-functions.php:543
+#: core/includes/registration-functions.php:564
 msgid "Missing payment ID."
 msgstr ""
 
@@ -6421,7 +6421,7 @@ msgid "Invalid username or email"
 msgstr ""
 
 #: core/includes/login-functions.php:86
-#: core/includes/registration-functions.php:805 legacy/includes/forms.php:134
+#: core/includes/registration-functions.php:826 legacy/includes/forms.php:134
 #: legacy/includes/forms.php:670
 msgid "Please enter a password"
 msgstr ""
@@ -6492,7 +6492,7 @@ msgid "Please enter a password, and confirm it"
 msgstr ""
 
 #: core/includes/member-functions.php:543
-#: core/includes/registration-functions.php:809 legacy/includes/forms.php:674
+#: core/includes/registration-functions.php:830 legacy/includes/forms.php:674
 msgid "Passwords do not match"
 msgstr ""
 
@@ -6801,115 +6801,120 @@ msgstr ""
 msgid "Please choose a membership level"
 msgstr ""
 
-#: core/includes/registration-functions.php:106
+#: core/includes/registration-functions.php:122
+#: core/includes/registration-functions.php:1292
+msgid "Invalid membership level selected"
+msgstr ""
+
+#: core/includes/registration-functions.php:127
 msgid "You may only sign up for a free trial once"
 msgstr ""
 
-#: core/includes/registration-functions.php:116
+#: core/includes/registration-functions.php:137
 msgid "You can only use the discount code once"
 msgstr ""
 
-#: core/includes/registration-functions.php:120
+#: core/includes/registration-functions.php:141
 msgid "The discount you entered is invalid"
 msgstr ""
 
-#: core/includes/registration-functions.php:135
+#: core/includes/registration-functions.php:156
 msgid "You must agree to the terms and conditions"
 msgstr ""
 
-#: core/includes/registration-functions.php:140
+#: core/includes/registration-functions.php:161
 msgid "You must agree to the privacy policy"
 msgstr ""
 
-#: core/includes/registration-functions.php:225
+#: core/includes/registration-functions.php:246
 msgid "Failed to create customer record"
 msgstr ""
 
-#: core/includes/registration-functions.php:355
+#: core/includes/registration-functions.php:376
 msgid "Upgraded from %1$s (membership #%2$d)."
 msgstr ""
 
-#: core/includes/registration-functions.php:556
+#: core/includes/registration-functions.php:577
 msgid "Invalid payment. Please try again."
 msgstr ""
 
-#: core/includes/registration-functions.php:774
+#: core/includes/registration-functions.php:795
 msgid "This username is already in use. If this is your username, please <a href=\"%s\">log in</a> and try again."
 msgstr ""
 
-#: core/includes/registration-functions.php:782 legacy/includes/forms.php:658
+#: core/includes/registration-functions.php:803 legacy/includes/forms.php:658
 msgid "Invalid username"
 msgstr ""
 
-#: core/includes/registration-functions.php:786 legacy/includes/forms.php:649
+#: core/includes/registration-functions.php:807 legacy/includes/forms.php:649
 msgid "Please enter a username"
 msgstr ""
 
-#: core/includes/registration-functions.php:790 legacy/includes/forms.php:662
+#: core/includes/registration-functions.php:811 legacy/includes/forms.php:662
 msgid "Invalid email"
 msgstr ""
 
-#: core/includes/registration-functions.php:797
+#: core/includes/registration-functions.php:818
 msgid "This email address is already in use. If this is your email address, please <a href=\"%s\">log in</a> and try again."
 msgstr ""
 
-#: core/includes/registration-functions.php:1057
-#: core/includes/registration-functions.php:1125
+#: core/includes/registration-functions.php:1078
+#: core/includes/registration-functions.php:1146
 #: core/templates/register-common.php:102
 #: core/templates/register-total-details.php:53
 msgid "free"
 msgstr ""
 
-#: core/includes/registration-functions.php:1064
+#: core/includes/registration-functions.php:1085
 msgid "Free trial - %s"
 msgstr ""
 
-#: core/includes/registration-functions.php:1118
+#: core/includes/registration-functions.php:1139
 msgid " every %1$s %2$s"
 msgstr ""
 
-#: core/includes/registration-functions.php:1238
+#: core/includes/registration-functions.php:1262
 msgid "Invalid membership level selected."
 msgstr ""
 
-#: core/includes/registration-functions.php:1246
+#: core/includes/registration-functions.php:1271
 msgid "A payment method is required for this membership level."
 msgstr ""
 
-#: core/includes/registration-functions.php:1376
+#: core/includes/registration-functions.php:1407
 msgid "Renew"
 msgstr ""
 
-#: core/includes/registration-functions.php:1380
+#: core/includes/registration-functions.php:1411
 msgid "Change"
 msgstr ""
 
-#: core/includes/registration-functions.php:1385
+#: core/includes/registration-functions.php:1416
 msgid "or"
 msgstr ""
 
-#: core/includes/registration-functions.php:1395
+#: core/includes/registration-functions.php:1426
 msgid "You are signing up for a new membership."
 msgstr ""
 
-#: core/includes/registration-functions.php:1395
+#: core/includes/registration-functions.php:1426
 msgid "Click here to renew or change an existing membership instead."
 msgstr ""
 
-#: core/includes/registration-functions.php:1452
+#: core/includes/registration-functions.php:1483
 msgid "You are changing your \"%1$s\" membership. <a href=\"%2$s\">Click here to sign up for an additional membership instead.</a>"
 msgstr ""
 
-#: core/includes/registration-functions.php:1485
+#: core/includes/registration-functions.php:1516
 msgid "Proration Credit"
 msgstr ""
 
-#: core/includes/registration-functions.php:1530
+#: core/includes/registration-functions.php:1561
 msgid "If you upgrade or downgrade your account, the new membership will be prorated up to %s for the first payment. Prorated prices are shown below."
 msgstr ""
 
-#: core/includes/registration-functions.php:2121
-#: core/includes/registration-functions.php:2122
+#: core/includes/registration-functions.php:2152
+#: core/includes/registration-functions.php:2153
 msgid "Next Renewal Due"
 msgstr ""
 
