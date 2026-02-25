@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the Restrict Content package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Restrict Content 3.2.22\n"
+"Project-Id-Version: Restrict Content 3.2.23\n"
 "Report-Msgid-Bugs-To: http://ithemes.com/support/\n"
-"POT-Creation-Date: 2026-02-25 16:47:56+00:00\n"
+"POT-Creation-Date: 2026-02-25 21:52:49+00:00\n"
 "PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1203,7 +1203,7 @@ msgstr ""
 #: core/includes/admin/payments/class-payments-table.php:282
 #: core/includes/admin/reminders/subscription-reminders.php:83
 #: core/includes/admin/subscriptions/class-membership-levels-table.php:264
-#: core/includes/gateways/stripe/functions.php:1027
+#: core/includes/gateways/stripe/functions.php:1060
 msgid "Delete"
 msgstr ""
 
@@ -1296,7 +1296,9 @@ msgstr ""
 #: core/includes/admin/subscriptions/subscription-actions.php:193
 #: core/includes/batch/csv-exports/class-batch-csv-export-base.php:98
 #: core/includes/gateways/gateway-actions.php:161
-#: core/includes/gateways/stripe/functions.php:1077
+#: core/includes/gateways/stripe/functions.php:820
+#: core/includes/gateways/stripe/functions.php:832
+#: core/includes/gateways/stripe/functions.php:1110
 #: core/includes/memberships/membership-actions.php:45
 #: core/includes/memberships/membership-actions.php:99
 #: core/includes/memberships/membership-actions.php:165
@@ -6016,105 +6018,113 @@ msgid "User does not have any saved payment methods."
 msgstr ""
 
 #: core/includes/gateways/stripe/functions.php:797
+msgid "Security verification failed."
+msgstr ""
+
+#: core/includes/gateways/stripe/functions.php:803
 #: core/includes/registration-functions.php:564
 msgid "Missing payment ID."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:809
+#: core/includes/gateways/stripe/functions.php:814
 msgid "Invalid payment."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:819
-msgid "Unknown error"
+#: core/includes/gateways/stripe/functions.php:825
+msgid "This payment cannot be marked as failed."
 msgstr ""
 
 #: core/includes/gateways/stripe/functions.php:854
+msgid "Unknown error"
+msgstr ""
+
+#: core/includes/gateways/stripe/functions.php:888
 msgid "You are not authorized to perform this action."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:874
+#: core/includes/gateways/stripe/functions.php:908
 msgid "Missing membership ID."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:949
+#: core/includes/gateways/stripe/functions.php:983
 msgid "Invalid Stripe customer ID."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:988
+#: core/includes/gateways/stripe/functions.php:1022
 msgid "Error creating setup intent."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1046
+#: core/includes/gateways/stripe/functions.php:1079
 msgid "Missing payment method ID."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1054
+#: core/includes/gateways/stripe/functions.php:1087
 msgid "Invalid or unknown Stripe customer ID."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1094
+#: core/includes/gateways/stripe/functions.php:1127
 msgid "An unknown error occurred."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1147
+#: core/includes/gateways/stripe/functions.php:1179
 msgid "Payment gateway connection error."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1148
+#: core/includes/gateways/stripe/functions.php:1180
 msgid "The card has been declined."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1149
+#: core/includes/gateways/stripe/functions.php:1181
 msgid "Invalid email address. Please enter a valid email address and try again."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1150
+#: core/includes/gateways/stripe/functions.php:1182
 msgid "This card has expired. Please try again with a different payment method."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1151
+#: core/includes/gateways/stripe/functions.php:1183
 msgid "The supplied billing address is incorrect. Please check the card's address or try again with a different card."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1152
+#: core/includes/gateways/stripe/functions.php:1184
 msgid "The card's security code is incorrect. Please check the security code or try again with a different card."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1153
-#: core/includes/gateways/stripe/functions.php:1154
+#: core/includes/gateways/stripe/functions.php:1185
+#: core/includes/gateways/stripe/functions.php:1186
 msgid "The card number is incorrect. Please check the card number or try again with a different card."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1155
-#: core/includes/gateways/stripe/functions.php:1156
+#: core/includes/gateways/stripe/functions.php:1187
+#: core/includes/gateways/stripe/functions.php:1188
 msgid "The card's postal code is incorrect. Please check the postal code or try again with a different card."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1157
+#: core/includes/gateways/stripe/functions.php:1189
 msgid "The card's security code is invalid. Please check the security code or try again with a different card."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1158
+#: core/includes/gateways/stripe/functions.php:1190
 msgid "The card's expiration month is incorrect."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1159
+#: core/includes/gateways/stripe/functions.php:1191
 msgid "The card's expiration year is incorrect."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1160
+#: core/includes/gateways/stripe/functions.php:1192
 msgid "Authentication failure."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1161
+#: core/includes/gateways/stripe/functions.php:1193
 msgid "This payment method is invalid."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1162
+#: core/includes/gateways/stripe/functions.php:1194
 msgid "Payment attempt failed."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1163
+#: core/includes/gateways/stripe/functions.php:1195
 msgid "Setup attempt failed."
 msgstr ""
 
