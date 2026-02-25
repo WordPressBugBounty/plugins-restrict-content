@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the Restrict Content package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Restrict Content 3.2.21\n"
+"Project-Id-Version: Restrict Content 3.2.22\n"
 "Report-Msgid-Bugs-To: http://ithemes.com/support/\n"
-"POT-Creation-Date: 2026-02-12 16:59:02+00:00\n"
+"POT-Creation-Date: 2026-02-25 16:47:56+00:00\n"
 "PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -6296,67 +6296,67 @@ msgstr ""
 
 #. translators: %s: The RCP Title.
 
-#: core/includes/integrations/class-rcp-telemetry.php:341
+#: core/includes/integrations/class-rcp-telemetry.php:358
 msgid "These are %s fields that we use for analysis and to make the product better."
 msgstr ""
 
-#: core/includes/integrations/class-rcp-telemetry.php:346
+#: core/includes/integrations/class-rcp-telemetry.php:363
 msgid "Version"
 msgstr ""
 
-#: core/includes/integrations/class-rcp-telemetry.php:350
+#: core/includes/integrations/class-rcp-telemetry.php:367
 msgid "Last Updated"
 msgstr ""
 
-#: core/includes/integrations/class-rcp-telemetry.php:354
+#: core/includes/integrations/class-rcp-telemetry.php:371
 msgid "Total Membership Levels"
 msgstr ""
 
-#: core/includes/integrations/class-rcp-telemetry.php:358
+#: core/includes/integrations/class-rcp-telemetry.php:375
 msgid "Total Paid Membership Levels"
 msgstr ""
 
-#: core/includes/integrations/class-rcp-telemetry.php:362
+#: core/includes/integrations/class-rcp-telemetry.php:379
 msgid "Total Free Membership Levels"
 msgstr ""
 
-#: core/includes/integrations/class-rcp-telemetry.php:366
+#: core/includes/integrations/class-rcp-telemetry.php:383
 msgid "Total One-Time Membership Levels"
 msgstr ""
 
-#: core/includes/integrations/class-rcp-telemetry.php:370
+#: core/includes/integrations/class-rcp-telemetry.php:387
 msgid "Total Recurring Membership Levels"
 msgstr ""
 
-#: core/includes/integrations/class-rcp-telemetry.php:374
+#: core/includes/integrations/class-rcp-telemetry.php:391
 msgid "Total Paying Customers"
 msgstr ""
 
-#: core/includes/integrations/class-rcp-telemetry.php:378
+#: core/includes/integrations/class-rcp-telemetry.php:395
 msgid "Total Free Customers"
 msgstr ""
 
-#: core/includes/integrations/class-rcp-telemetry.php:382
+#: core/includes/integrations/class-rcp-telemetry.php:399
 msgid "Total No-Membership Customers"
 msgstr ""
 
-#: core/includes/integrations/class-rcp-telemetry.php:386
+#: core/includes/integrations/class-rcp-telemetry.php:403
 msgid "Is Multiple Memberships"
 msgstr ""
 
-#: core/includes/integrations/class-rcp-telemetry.php:390
+#: core/includes/integrations/class-rcp-telemetry.php:407
 msgid "Total Revenue This Month"
 msgstr ""
 
-#: core/includes/integrations/class-rcp-telemetry.php:394
+#: core/includes/integrations/class-rcp-telemetry.php:411
 msgid "Payment Gateways"
 msgstr ""
 
-#: core/includes/integrations/class-rcp-telemetry.php:398
+#: core/includes/integrations/class-rcp-telemetry.php:415
 msgid "Active Add-ons"
 msgstr ""
 
-#: core/includes/integrations/class-rcp-telemetry.php:402
+#: core/includes/integrations/class-rcp-telemetry.php:419
 msgid "Deactivated Add-ons"
 msgstr ""
 
