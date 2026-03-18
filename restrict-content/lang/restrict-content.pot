@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the Restrict Content package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Restrict Content 3.2.24\n"
+"Project-Id-Version: Restrict Content 3.2.25\n"
 "Report-Msgid-Bugs-To: http://ithemes.com/support/\n"
-"POT-Creation-Date: 2026-03-11 16:09:47+00:00\n"
+"POT-Creation-Date: 2026-03-18 22:45:16+00:00\n"
 "PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5153,7 +5153,7 @@ msgstr ""
 msgid "User ID: %d"
 msgstr ""
 
-#: core/includes/class-rcp-cli.php:396 core/includes/login-functions.php:267
+#: core/includes/class-rcp-cli.php:396 core/includes/login-functions.php:271
 #: legacy/includes/forms.php:303
 msgid "Username: %s"
 msgstr ""
@@ -6444,85 +6444,85 @@ msgstr ""
 msgid "Your password reset link appears to be invalid."
 msgstr ""
 
-#: core/includes/login-functions.php:219
+#: core/includes/login-functions.php:221
 msgid "Enter a username or e-mail address."
 msgstr ""
 
-#: core/includes/login-functions.php:223 legacy/includes/forms.php:272
+#: core/includes/login-functions.php:225 legacy/includes/forms.php:272
 msgid "There is no user registered with that email address."
 msgstr ""
 
-#: core/includes/login-functions.php:235 legacy/includes/forms.php:286
+#: core/includes/login-functions.php:237 legacy/includes/forms.php:286
 #: legacy/includes/forms.php:291
 msgid "Invalid username or e-mail."
 msgstr ""
 
-#: core/includes/login-functions.php:265 legacy/includes/forms.php:301
+#: core/includes/login-functions.php:269 legacy/includes/forms.php:301
 msgid "Someone requested that the password be reset for the following account:"
 msgstr ""
 
-#: core/includes/login-functions.php:268 legacy/includes/forms.php:304
+#: core/includes/login-functions.php:272 legacy/includes/forms.php:304
 msgid "If this was a mistake, just ignore this email and nothing will happen."
 msgstr ""
 
-#: core/includes/login-functions.php:269 legacy/includes/forms.php:305
+#: core/includes/login-functions.php:273 legacy/includes/forms.php:305
 msgid "To reset your password, visit the following address:"
 msgstr ""
 
-#: core/includes/login-functions.php:284 legacy/includes/forms.php:322
+#: core/includes/login-functions.php:298 legacy/includes/forms.php:322
 msgid "[%s] Password Reset"
 msgstr ""
 
-#: core/includes/login-functions.php:293
+#: core/includes/login-functions.php:307
 msgid "The e-mail could not be sent."
 msgstr ""
 
-#: core/includes/login-functions.php:293
+#: core/includes/login-functions.php:307
 msgid "Possible reason: your host may have disabled the mail() function."
 msgstr ""
 
-#: core/includes/member-functions.php:469
+#: core/includes/member-functions.php:471
 msgid "Please enter a valid email address"
 msgstr ""
 
-#: core/includes/member-functions.php:474
+#: core/includes/member-functions.php:476
 msgid "The email you entered belongs to another user. Please use another."
 msgstr ""
 
-#: core/includes/member-functions.php:480
+#: core/includes/member-functions.php:482
 msgid "The passwords you entered do not match. Please try again."
 msgstr ""
 
-#: core/includes/member-functions.php:505
+#: core/includes/member-functions.php:507
 msgid "There was an error updating your profile. Please try again."
 msgstr ""
 
-#: core/includes/member-functions.php:539
+#: core/includes/member-functions.php:543
 msgid "Please enter a password, and confirm it"
 msgstr ""
 
-#: core/includes/member-functions.php:543
+#: core/includes/member-functions.php:547
 #: core/includes/registration-functions.php:830 legacy/includes/forms.php:674
 msgid "Passwords do not match"
 msgstr ""
 
-#: core/includes/member-functions.php:918
+#: core/includes/member-functions.php:922
 msgid "Recurring charge failed in %s."
 msgstr ""
 
-#: core/includes/member-functions.php:921
+#: core/includes/member-functions.php:925
 msgid " Event ID: %s"
 msgstr ""
 
-#: core/includes/member-functions.php:949
+#: core/includes/member-functions.php:953
 msgid "%s subscription started."
 msgstr ""
 
-#: core/includes/member-functions.php:954
+#: core/includes/member-functions.php:958
 msgid "%s subscription renewed."
 msgstr ""
 
-#: core/includes/member-functions.php:959
+#: core/includes/member-functions.php:963
 msgid "Subscription changed from %s to %s."
 msgstr ""
 
