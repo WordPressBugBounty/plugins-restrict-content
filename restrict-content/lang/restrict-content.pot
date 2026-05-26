@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the Kadence Memberships package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Kadence Memberships 4.0.0\n"
+"Project-Id-Version: Kadence Memberships 4.0.1-SVUL-1-16056a8\n"
 "Report-Msgid-Bugs-To: http://ithemes.com/support/\n"
-"POT-Creation-Date: 2026-05-12 01:58:57+00:00\n"
+"POT-Creation-Date: 2026-05-26 20:08:52+00:00\n"
 "PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1030,7 +1030,7 @@ msgstr ""
 #: core/includes/batch/csv-exports/class-export-memberships.php:31
 #: core/includes/deprecated/class-rcp-export-members.php:46
 #: core/templates/profile-editor.php:34 core/templates/register-common.php:63
-#: legacy/includes/forms.php:509
+#: legacy/includes/forms.php:519
 msgid "First Name"
 msgstr ""
 
@@ -1045,7 +1045,7 @@ msgstr ""
 #: core/includes/batch/csv-exports/class-export-memberships.php:32
 #: core/includes/deprecated/class-rcp-export-members.php:47
 #: core/templates/profile-editor.php:38 core/templates/register-common.php:67
-#: legacy/includes/forms.php:513
+#: legacy/includes/forms.php:523
 msgid "Last Name"
 msgstr ""
 
@@ -1116,7 +1116,7 @@ msgstr ""
 #: core/includes/admin/memberships/add-membership.php:46
 #: core/includes/admin/settings/settings.php:1041
 #: core/includes/shortcodes.php:957 core/templates/register-common.php:59
-#: legacy/includes/forms.php:505
+#: legacy/includes/forms.php:515
 msgid "Email"
 msgstr ""
 
@@ -6072,7 +6072,7 @@ msgid "Setup attempt failed."
 msgstr ""
 
 #: core/includes/install.php:213 core/includes/scripts.php:291
-#: legacy/includes/forms.php:529 legacy/includes/scripts.php:38
+#: legacy/includes/forms.php:539 legacy/includes/scripts.php:38
 msgid "Register"
 msgstr ""
 
@@ -6371,7 +6371,7 @@ msgstr ""
 
 #: core/includes/login-functions.php:86
 #: core/includes/registration-functions.php:826 legacy/includes/forms.php:134
-#: legacy/includes/forms.php:670
+#: legacy/includes/forms.php:680
 msgid "Please enter a password"
 msgstr ""
 
@@ -6408,7 +6408,7 @@ msgstr ""
 msgid "To reset your password, visit the following address:"
 msgstr ""
 
-#: core/includes/login-functions.php:298 legacy/includes/forms.php:322
+#: core/includes/login-functions.php:298 legacy/includes/forms.php:332
 msgid "[%s] Password Reset"
 msgstr ""
 
@@ -6441,7 +6441,7 @@ msgid "Please enter a password, and confirm it"
 msgstr ""
 
 #: core/includes/member-functions.php:547
-#: core/includes/registration-functions.php:830 legacy/includes/forms.php:674
+#: core/includes/registration-functions.php:830 legacy/includes/forms.php:684
 msgid "Passwords do not match"
 msgstr ""
 
@@ -6791,15 +6791,15 @@ msgstr ""
 msgid "This username is already in use. If this is your username, please <a href=\"%s\">log in</a> and try again."
 msgstr ""
 
-#: core/includes/registration-functions.php:803 legacy/includes/forms.php:658
+#: core/includes/registration-functions.php:803 legacy/includes/forms.php:668
 msgid "Invalid username"
 msgstr ""
 
-#: core/includes/registration-functions.php:807 legacy/includes/forms.php:649
+#: core/includes/registration-functions.php:807 legacy/includes/forms.php:659
 msgid "Please enter a username"
 msgstr ""
 
-#: core/includes/registration-functions.php:811 legacy/includes/forms.php:662
+#: core/includes/registration-functions.php:811 legacy/includes/forms.php:672
 msgid "Invalid email"
 msgstr ""
 
@@ -6985,7 +6985,7 @@ msgstr ""
 msgid "You are already registered and have an active subscription."
 msgstr ""
 
-#: core/includes/shortcodes.php:355 legacy/includes/forms.php:476
+#: core/includes/shortcodes.php:355 legacy/includes/forms.php:486
 #: legacy/includes/shortcodes.php:99
 msgid "Register New Account"
 msgstr ""
@@ -7135,11 +7135,11 @@ msgid "Password changed successfully"
 msgstr ""
 
 #: core/templates/change-password.php:35 core/templates/profile-editor.php:66
-#: legacy/includes/forms.php:376
+#: legacy/includes/forms.php:386
 msgid "New Password"
 msgstr ""
 
-#: core/templates/change-password.php:39 legacy/includes/forms.php:380
+#: core/templates/change-password.php:39 legacy/includes/forms.php:390
 msgid "Password Confirm"
 msgstr ""
 
@@ -7205,7 +7205,7 @@ msgid "Username or Email"
 msgstr ""
 
 #: core/templates/login.php:37 core/templates/register-common.php:71
-#: legacy/includes/forms.php:68 legacy/includes/forms.php:517
+#: legacy/includes/forms.php:68 legacy/includes/forms.php:527
 msgid "Password"
 msgstr ""
 
@@ -7223,7 +7223,7 @@ msgstr ""
 
 #: core/templates/login.php:63 core/templates/lostpassword.php:43
 #: core/templates/lostpassword_checkemail.php:24 legacy/includes/forms.php:95
-#: legacy/includes/forms.php:217 legacy/includes/forms.php:352
+#: legacy/includes/forms.php:217 legacy/includes/forms.php:362
 msgid "Log out"
 msgstr ""
 
@@ -7235,7 +7235,7 @@ msgstr ""
 msgid "Request Password Reset"
 msgstr ""
 
-#: core/templates/lostpassword_checkemail.php:19 legacy/includes/forms.php:344
+#: core/templates/lostpassword_checkemail.php:19 legacy/includes/forms.php:354
 msgid "Check your e-mail for the confirmation link."
 msgstr ""
 
@@ -7304,11 +7304,11 @@ msgid "<a href=\"%s\">Log in</a> to renew or change an existing membership."
 msgstr ""
 
 #: core/templates/register-common.php:55 legacy/includes/forms.php:63
-#: legacy/includes/forms.php:501
+#: legacy/includes/forms.php:511
 msgid "Username"
 msgstr ""
 
-#: core/templates/register-common.php:75 legacy/includes/forms.php:521
+#: core/templates/register-common.php:75 legacy/includes/forms.php:531
 msgid "Password Again"
 msgstr ""
 
@@ -7464,31 +7464,31 @@ msgstr ""
 msgid "Enter a username or email address."
 msgstr ""
 
-#: legacy/includes/forms.php:327
+#: legacy/includes/forms.php:337
 msgid "The email could not be sent. If this problem persists, please contact support."
 msgstr ""
 
-#: legacy/includes/forms.php:393
+#: legacy/includes/forms.php:403
 msgid "Change Password"
 msgstr ""
 
-#: legacy/includes/forms.php:419
+#: legacy/includes/forms.php:429
 msgid "Please enter a password and confirm it."
 msgstr ""
 
-#: legacy/includes/forms.php:423
+#: legacy/includes/forms.php:433
 msgid "Passwords do not match."
 msgstr ""
 
-#: legacy/includes/forms.php:475 legacy/includes/shortcodes.php:98
+#: legacy/includes/forms.php:485 legacy/includes/shortcodes.php:98
 msgid "You are already registered."
 msgstr ""
 
-#: legacy/includes/forms.php:653
+#: legacy/includes/forms.php:663
 msgid "Username already taken"
 msgstr ""
 
-#: legacy/includes/forms.php:666
+#: legacy/includes/forms.php:676
 msgid "Email already registered"
 msgstr ""
 
