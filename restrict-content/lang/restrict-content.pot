@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the Kadence Memberships package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Kadence Memberships 4.0.2\n"
+"Project-Id-Version: Kadence Memberships 4.0.4\n"
 "Report-Msgid-Bugs-To: http://ithemes.com/support/\n"
-"POT-Creation-Date: 2026-08-06 16:00:10+00:00\n"
+"POT-Creation-Date: 2026-09-16 22:25:09+00:00\n"
 "PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -418,11 +418,15 @@ msgstr ""
 msgid "Test email failed to send."
 msgstr ""
 
-#: core/includes/admin/admin-notices.php:511
+#: core/includes/admin/admin-notices.php:491
+msgid "Test email not sent: the subject or message is blank."
+msgstr ""
+
+#: core/includes/admin/admin-notices.php:516
 msgid "Security check failed"
 msgstr ""
 
-#: core/includes/admin/admin-notices.php:511
+#: core/includes/admin/admin-notices.php:516
 #: core/includes/admin/class-rcp-add-on-updater.php:287
 #: core/includes/admin/customers/add-customer.php:16
 #: core/includes/admin/customers/customer-actions.php:24
@@ -532,10 +536,9 @@ msgstr ""
 #: core/includes/admin/reminders/subscription-reminders.php:199
 #: core/includes/admin/reminders/subscription-reminders.php:203
 #: core/includes/admin/reminders/subscription-reminders.php:207
-#: core/includes/admin/settings/settings.php:1667
-#: core/includes/admin/settings/settings.php:1671
-#: core/includes/admin/settings/settings.php:1675
-#: core/includes/admin/settings/settings.php:1749
+#: core/includes/admin/settings/settings.php:1635
+#: core/includes/admin/settings/settings.php:1639
+#: core/includes/admin/settings/settings.php:1643
 #: core/includes/admin/subscriptions/subscription-actions.php:24
 #: core/includes/admin/subscriptions/subscription-actions.php:28
 #: core/includes/admin/subscriptions/subscription-actions.php:71
@@ -656,7 +659,7 @@ msgid "rcp-members"
 msgstr ""
 
 #: core/includes/admin/admin-pages.php:37
-#: core/includes/admin/admin-pages.php:40 core/includes/install.php:225
+#: core/includes/admin/admin-pages.php:40 core/includes/install.php:223
 #: legacy/includes/settings.php:189
 msgid "Welcome"
 msgstr ""
@@ -987,7 +990,7 @@ msgstr ""
 msgid "You do not have permission to install plugin updates"
 msgstr ""
 
-#: core/includes/admin/class-rcp-upgrades.php:231
+#: core/includes/admin/class-rcp-upgrades.php:238
 msgid "Migrate members and their memberships from user meta to a custom table."
 msgstr ""
 
@@ -1144,7 +1147,7 @@ msgstr ""
 #: core/includes/admin/payments/class-payments-table.php:282
 #: core/includes/admin/reminders/subscription-reminders.php:83
 #: core/includes/admin/subscriptions/class-membership-levels-table.php:264
-#: core/includes/gateways/stripe/functions.php:1060
+#: core/includes/gateways/stripe/functions.php:1117
 msgid "Delete"
 msgstr ""
 
@@ -1237,9 +1240,9 @@ msgstr ""
 #: core/includes/admin/subscriptions/subscription-actions.php:193
 #: core/includes/batch/csv-exports/class-batch-csv-export-base.php:98
 #: core/includes/gateways/gateway-actions.php:161
-#: core/includes/gateways/stripe/functions.php:820
-#: core/includes/gateways/stripe/functions.php:832
-#: core/includes/gateways/stripe/functions.php:1110
+#: core/includes/gateways/stripe/functions.php:854
+#: core/includes/gateways/stripe/functions.php:866
+#: core/includes/gateways/stripe/functions.php:1167
 #: core/includes/memberships/membership-actions.php:45
 #: core/includes/memberships/membership-actions.php:99
 #: core/includes/memberships/membership-actions.php:165
@@ -1359,7 +1362,7 @@ msgstr ""
 #: core/includes/admin/memberships/edit-membership.php:446
 #: core/includes/admin/payments/edit-payment.php:112
 #: core/includes/admin/payments/new-payment.php:79
-#: core/includes/misc-functions.php:1606
+#: core/includes/misc-functions.php:1605
 msgid "Pending"
 msgstr ""
 
@@ -1647,7 +1650,7 @@ msgstr ""
 #: core/includes/admin/import/import-actions.php:344
 #: core/includes/admin/subscriptions/edit-subscription.php:139
 #: core/includes/admin/subscriptions/subscription-levels.php:170
-#: core/includes/misc-functions.php:1604
+#: core/includes/misc-functions.php:1603
 #: vendor/strauss/stellarwp/telemetry/src/Telemetry/Opt_In/Status.php:263
 msgid "Active"
 msgstr ""
@@ -1655,15 +1658,15 @@ msgstr ""
 #: core/includes/admin/export/export-actions.php:158
 #: core/includes/admin/export.php:50
 #: core/includes/admin/import/import-actions.php:347
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1394
-#: core/includes/misc-functions.php:1610
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1471
+#: core/includes/misc-functions.php:1609
 msgid "Expired"
 msgstr ""
 
 #: core/includes/admin/export/export-actions.php:159
 #: core/includes/admin/export.php:51
 #: core/includes/admin/import/import-actions.php:346
-#: core/includes/misc-functions.php:1609
+#: core/includes/misc-functions.php:1608
 msgid "Cancelled"
 msgstr ""
 
@@ -3294,28 +3297,28 @@ msgstr ""
 #: core/includes/admin/memberships/edit-membership.php:447
 #: core/includes/admin/payments/edit-payment.php:113
 #: core/includes/admin/payments/new-payment.php:80
-#: core/includes/misc-functions.php:1615
+#: core/includes/misc-functions.php:1614
 msgid "Complete"
 msgstr ""
 
 #: core/includes/admin/memberships/edit-membership.php:448
 #: core/includes/admin/payments/edit-payment.php:114
 #: core/includes/admin/payments/new-payment.php:81
-#: core/includes/misc-functions.php:1616
+#: core/includes/misc-functions.php:1615
 msgid "Failed"
 msgstr ""
 
 #: core/includes/admin/memberships/edit-membership.php:449
 #: core/includes/admin/payments/edit-payment.php:115
 #: core/includes/admin/payments/new-payment.php:82
-#: core/includes/misc-functions.php:1617
+#: core/includes/misc-functions.php:1616
 msgid "Refunded"
 msgstr ""
 
 #: core/includes/admin/memberships/edit-membership.php:450
 #: core/includes/admin/payments/edit-payment.php:116
 #: core/includes/admin/payments/new-payment.php:83
-#: core/includes/misc-functions.php:1614
+#: core/includes/misc-functions.php:1613
 msgid "Abandoned"
 msgstr ""
 
@@ -3720,7 +3723,7 @@ msgstr ""
 
 #: core/includes/admin/reminders/subscription-reminders.php:48
 #: core/includes/class-rcp-reminders.php:100
-#: core/includes/misc-functions.php:1619
+#: core/includes/misc-functions.php:1618
 msgid "Renewal"
 msgstr ""
 
@@ -3741,7 +3744,7 @@ msgid "Enabled"
 msgstr ""
 
 #: core/includes/admin/reminders/subscription-reminders.php:65
-#: core/includes/misc-functions.php:1624
+#: core/includes/misc-functions.php:1623
 msgid "Disabled"
 msgstr ""
 
@@ -3772,7 +3775,7 @@ msgstr ""
 #: core/includes/admin/reminders/subscription-reminders.php:113
 #: core/includes/admin/reminders/subscription-reminders.php:170
 #: core/includes/admin/reminders/subscription-reminders.php:203
-#: core/includes/admin/settings/settings.php:1671
+#: core/includes/admin/settings/settings.php:1639
 msgid "Nonce verification failed"
 msgstr ""
 
@@ -3814,10 +3817,10 @@ msgstr ""
 #: core/includes/class-rcp-emails.php:266 core/includes/email-functions.php:93
 #: core/includes/email-functions.php:126 core/includes/email-functions.php:160
 #: core/includes/email-functions.php:193 core/includes/email-functions.php:229
-#: core/includes/email-functions.php:625 core/includes/install.php:357
-#: core/includes/install.php:371 core/includes/install.php:385
-#: core/includes/install.php:399 core/includes/install.php:414
-#: core/includes/install.php:437
+#: core/includes/email-functions.php:625 core/includes/install.php:355
+#: core/includes/install.php:369 core/includes/install.php:383
+#: core/includes/install.php:397 core/includes/install.php:412
+#: core/includes/install.php:431 core/includes/install.php:450
 msgid "Hello"
 msgstr ""
 
@@ -4364,143 +4367,137 @@ msgstr ""
 msgid "Agree to Terms Label"
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1300
+#: core/includes/admin/settings/settings.php:1295
 msgid "Label shown next to the agree to terms checkbox."
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1305
+#: core/includes/admin/settings/settings.php:1300
 msgid "Terms Link"
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1314
+#: core/includes/admin/settings/settings.php:1304
 msgid "Optional - the URL to your terms page. If set, the terms label will link to this URL."
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1319
+#: core/includes/admin/settings/settings.php:1309
 msgid "Agree to Privacy Policy"
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1328
+#: core/includes/admin/settings/settings.php:1318
 msgid "Check this to add an \"Agree to Privacy Policy\" checkbox to the registration form."
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1333
+#: core/includes/admin/settings/settings.php:1323
 msgid "Agree to Privacy Policy Label"
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1342
+#: core/includes/admin/settings/settings.php:1327
 msgid "Label shown next to the agree to privacy policy checkbox."
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1347
+#: core/includes/admin/settings/settings.php:1332
 msgid "Privacy Policy Link"
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1356
+#: core/includes/admin/settings/settings.php:1336
 msgid "Optional - the URL to your privacy policy page. If set, the privacy policy label will link to this URL."
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1362
+#: core/includes/admin/settings/settings.php:1342
 msgid "Enable reCAPTCHA"
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1367
+#: core/includes/admin/settings/settings.php:1347
 msgid "Check this to enable reCAPTCHA on the registration form."
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1372
+#: core/includes/admin/settings/settings.php:1352
 msgid "reCAPTCHA Version"
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1376
+#: core/includes/admin/settings/settings.php:1356
 msgid "reCAPTCHA v2"
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1377
+#: core/includes/admin/settings/settings.php:1357
 msgid "reCAPTCHA v3"
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1379
+#: core/includes/admin/settings/settings.php:1359
 msgid "Select the reCAPTCHA version that corresponds to your site key."
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1384
+#: core/includes/admin/settings/settings.php:1364
 msgid "reCAPTCHA Site Key"
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1396
+#: core/includes/admin/settings/settings.php:1370
 msgid "This your own personal reCAPTCHA Site key. Go to"
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1397
-#: core/includes/admin/settings/settings.php:1416
+#: core/includes/admin/settings/settings.php:1371
+#: core/includes/admin/settings/settings.php:1384
 msgid "your account"
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1397
+#: core/includes/admin/settings/settings.php:1371
 msgid "then click on your domain (or add a new one) to find your site key."
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1403
+#: core/includes/admin/settings/settings.php:1377
 msgid "reCAPTCHA Secret Key"
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1415
+#: core/includes/admin/settings/settings.php:1383
 msgid "This your own personal reCAPTCHA Secret key. Go to"
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1416
+#: core/includes/admin/settings/settings.php:1384
 msgid "then click on your domain (or add a new one) to find your secret key."
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1430
+#: core/includes/admin/settings/settings.php:1398
 msgid "Enable Debug Mode"
 msgstr ""
 
 #. translators: %s: Tools page URL.
 
-#: core/includes/admin/settings/settings.php:1437
+#: core/includes/admin/settings/settings.php:1405
 msgid "Turn on error logging to help identify issues. Logs are kept in <a href=\"%s\">Restrict > Tools</a>."
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1444
+#: core/includes/admin/settings/settings.php:1412
 msgid "Remove Data on Uninstall"
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1448
+#: core/includes/admin/settings/settings.php:1416
 msgid "Remove all saved data for Kadence Memberships Pro when the plugin is uninstalled."
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1453
+#: core/includes/admin/settings/settings.php:1421
 msgid "Switch Free Subscriptions"
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1457
+#: core/includes/admin/settings/settings.php:1425
 msgid "Check this box if you would like to enable Free subscriptions switching."
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1467
+#: core/includes/admin/settings/settings.php:1435
 #: legacy/includes/settings.php:151
 msgid "Save Options"
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1667
+#: core/includes/admin/settings/settings.php:1635
 msgid "You do not have permission to send test emails"
 msgstr ""
 
-#: core/includes/admin/settings/settings.php:1675
+#: core/includes/admin/settings/settings.php:1643
 msgid "No email template was provided"
-msgstr ""
-
-#. translators: %s: Error message.
-
-#: core/includes/admin/settings/settings.php:1749
-msgid "Test email not sent: email subject or message is blank."
 msgstr ""
 
 #. translators: %s: Settings page URL.
 
-#: core/includes/admin/settings/settings.php:1801
+#: core/includes/admin/settings/settings.php:1730
 msgid "There was an error getting your Stripe credentials. Please <a href=\"%s\">try again</a>. If you continue to have this problem, please contact support."
 msgstr ""
 
@@ -4545,7 +4542,7 @@ msgstr ""
 
 #: core/includes/admin/subscriptions/class-membership-levels-table.php:162
 #: core/includes/memberships/class-rcp-membership.php:632
-#: core/includes/misc-functions.php:1611
+#: core/includes/misc-functions.php:1610
 msgid "Free"
 msgstr ""
 
@@ -4674,7 +4671,7 @@ msgstr ""
 
 #: core/includes/admin/subscriptions/edit-subscription.php:126
 #: core/includes/admin/subscriptions/subscription-levels.php:157
-#: core/includes/class-rcp-registration.php:152
+#: core/includes/class-rcp-registration.php:154
 msgid "Signup Fee"
 msgstr ""
 
@@ -4685,7 +4682,7 @@ msgstr ""
 
 #: core/includes/admin/subscriptions/edit-subscription.php:140
 #: core/includes/admin/subscriptions/subscription-levels.php:171
-#: core/includes/misc-functions.php:1605
+#: core/includes/misc-functions.php:1604
 #: vendor/strauss/stellarwp/telemetry/src/Telemetry/Opt_In/Status.php:266
 msgid "Inactive"
 msgstr ""
@@ -5311,7 +5308,7 @@ msgstr ""
 msgid "You do not have permission to export data."
 msgstr ""
 
-#: core/includes/class-rcp-registration.php:152
+#: core/includes/class-rcp-registration.php:154
 msgid "Signup Credit"
 msgstr ""
 
@@ -5602,21 +5599,22 @@ msgstr ""
 #: core/includes/email-functions.php:95 core/includes/email-functions.php:128
 #: core/includes/email-functions.php:162 core/includes/email-functions.php:195
 #: core/includes/email-functions.php:231 core/includes/email-functions.php:627
-#: core/includes/install.php:360 core/includes/install.php:374
-#: core/includes/install.php:388 core/includes/install.php:403
-#: core/includes/install.php:417 core/includes/install.php:439
+#: core/includes/install.php:358 core/includes/install.php:372
+#: core/includes/install.php:386 core/includes/install.php:401
+#: core/includes/install.php:415 core/includes/install.php:438
+#: core/includes/install.php:452
 msgid "Thank you"
 msgstr ""
 
-#: core/includes/email-functions.php:99 core/includes/install.php:356
+#: core/includes/email-functions.php:99 core/includes/install.php:354
 msgid "New membership on %s"
 msgstr ""
 
-#: core/includes/email-functions.php:132 core/includes/install.php:370
+#: core/includes/email-functions.php:132 core/includes/install.php:368
 msgid "New free membership on %s"
 msgstr ""
 
-#: core/includes/email-functions.php:166 core/includes/install.php:384
+#: core/includes/email-functions.php:166 core/includes/install.php:382
 msgid "New trial membership on %s"
 msgstr ""
 
@@ -5628,7 +5626,7 @@ msgstr ""
 msgid "Their membership level was"
 msgstr ""
 
-#: core/includes/email-functions.php:199 core/includes/install.php:398
+#: core/includes/email-functions.php:199 core/includes/install.php:396
 msgid "Cancelled membership on %s"
 msgstr ""
 
@@ -5636,7 +5634,7 @@ msgstr ""
 msgid "membership has expired"
 msgstr ""
 
-#: core/includes/email-functions.php:235 core/includes/install.php:413
+#: core/includes/email-functions.php:235 core/includes/install.php:411
 msgid "Expired membership on %s"
 msgstr ""
 
@@ -5712,128 +5710,134 @@ msgstr ""
 msgid "Exiting Stripe webhook - no membership level ID for membership."
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1185
+#. translators: %s The transaction id.
+
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1161
+msgid "Transaction %s is already being processed."
+msgstr ""
+
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1262
 msgid "rcp_stripe_charge_succeeded action fired successfully"
 msgstr ""
 
 #. translators: %s The transaction id.
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1198
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1275
 msgid "Duplicate payment found. Transaction ID %s"
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1223
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1300
 msgid "rcp_stripe_charge_failed action fired successfully"
 msgstr ""
 
 #. translators: %d is the membership ID.
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1245
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1322
 msgid "Membership #%d just disabled auto renew - not cancelling."
 msgstr ""
 
 #. translators: %d is the membership ID.
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1261
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1338
 msgid "Membership #%d has completed its payment plan - not cancelling."
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1271
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1348
 msgid "Membership cancelled via Stripe webhook."
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1280
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1357
 msgid "Membership cancelled successfully"
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1310
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1387
 msgid "Membership expired via Stripe webhook"
 msgstr ""
 
 #. translators: %s is the error message.
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1325
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1402
 msgid "Exiting Stripe webhook due to PHP exception: %s."
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1337
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1414
 msgid "Kadence Memberships completed processing webhooks."
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1380
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1457
 #: core/templates/card-update-form.php:65
 msgid "ending in"
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1383
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1460
 #: core/templates/card-update-form.php:68
 msgid "expires"
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1409
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1486
 #: core/templates/card-update-form.php:95
 msgid "Add New Card"
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1420
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1448
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1497
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1525
 #: core/templates/card-form-full.php:303 core/templates/card-form.php:32
 #: core/templates/card-update-form-fields.php:25
 msgid "Name on Card"
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1425
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1502
 msgid "Credit Card"
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1475
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1552
 #: core/includes/scripts.php:301
 msgid "The card holder name you have entered is invalid"
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1479
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1556
 msgid "Missing Stripe test keys. Please enter your test keys to use Stripe in Sandbox Mode."
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1483
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1560
 msgid "Missing Stripe live keys. Please enter your live keys to use Stripe in Live Mode."
 msgstr ""
 
 #. translators: %s The new plan ID.
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1628
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1705
 msgid "New Plan ID doesn't exist. New Plan ID: %s"
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1693
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1770
 msgid "Missing plan name or price."
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1717
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1794
 msgid "Empty plan ID."
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1813
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1890
 msgid "Membership level not found."
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1921
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1998
 msgid "Unable to get membership level details"
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:1935
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:2012
 msgid "Failed to create Stripe plan"
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:2003
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:2080
 msgid "Error creating date for next billing date"
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:2020
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:2097
 msgid "Unable to determine Stripe customer ID"
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:2035
+#: core/includes/gateways/class-rcp-payment-gateway-stripe.php:2112
 msgid "Customer deleted in Stripe"
 msgstr ""
 
@@ -5944,254 +5948,277 @@ msgstr ""
 msgid "Missing Stripe setup intent."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:551
+#: core/includes/gateways/stripe/functions.php:585
 msgid "User is not a customer."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:559
+#: core/includes/gateways/stripe/functions.php:593
 msgid "User is not a Stripe customer."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:575
+#: core/includes/gateways/stripe/functions.php:609
 msgid "Missing Stripe secret key."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:586
+#: core/includes/gateways/stripe/functions.php:620
 msgid "User does not have any saved payment methods."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:797
+#: core/includes/gateways/stripe/functions.php:831
 msgid "Security verification failed."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:803
+#: core/includes/gateways/stripe/functions.php:837
 #: core/includes/registration-functions.php:564
 msgid "Missing payment ID."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:814
+#: core/includes/gateways/stripe/functions.php:848
 msgid "Invalid payment."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:825
+#: core/includes/gateways/stripe/functions.php:859
 msgid "This payment cannot be marked as failed."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:854
+#: core/includes/gateways/stripe/functions.php:888
 msgid "Unknown error"
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:888
+#: core/includes/gateways/stripe/functions.php:923
+msgid "You must be logged in to perform this action."
+msgstr ""
+
+#: core/includes/gateways/stripe/functions.php:945
 msgid "You are not authorized to perform this action."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:908
+#: core/includes/gateways/stripe/functions.php:965
 msgid "Missing membership ID."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:983
+#: core/includes/gateways/stripe/functions.php:1040
 msgid "Invalid Stripe customer ID."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1022
+#: core/includes/gateways/stripe/functions.php:1079
 msgid "Error creating setup intent."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1079
+#: core/includes/gateways/stripe/functions.php:1136
 msgid "Missing payment method ID."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1087
+#: core/includes/gateways/stripe/functions.php:1144
 msgid "Invalid or unknown Stripe customer ID."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1127
+#: core/includes/gateways/stripe/functions.php:1184
 msgid "An unknown error occurred."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1179
+#: core/includes/gateways/stripe/functions.php:1236
 msgid "Payment gateway connection error."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1180
+#: core/includes/gateways/stripe/functions.php:1237
 msgid "The card has been declined."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1181
+#: core/includes/gateways/stripe/functions.php:1238
 msgid "Invalid email address. Please enter a valid email address and try again."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1182
+#: core/includes/gateways/stripe/functions.php:1239
 msgid "This card has expired. Please try again with a different payment method."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1183
+#: core/includes/gateways/stripe/functions.php:1240
 msgid "The supplied billing address is incorrect. Please check the card's address or try again with a different card."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1184
+#: core/includes/gateways/stripe/functions.php:1241
 msgid "The card's security code is incorrect. Please check the security code or try again with a different card."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1185
-#: core/includes/gateways/stripe/functions.php:1186
+#: core/includes/gateways/stripe/functions.php:1242
+#: core/includes/gateways/stripe/functions.php:1243
 msgid "The card number is incorrect. Please check the card number or try again with a different card."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1187
-#: core/includes/gateways/stripe/functions.php:1188
+#: core/includes/gateways/stripe/functions.php:1244
+#: core/includes/gateways/stripe/functions.php:1245
 msgid "The card's postal code is incorrect. Please check the postal code or try again with a different card."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1189
+#: core/includes/gateways/stripe/functions.php:1246
 msgid "The card's security code is invalid. Please check the security code or try again with a different card."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1190
+#: core/includes/gateways/stripe/functions.php:1247
 msgid "The card's expiration month is incorrect."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1191
+#: core/includes/gateways/stripe/functions.php:1248
 msgid "The card's expiration year is incorrect."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1192
+#: core/includes/gateways/stripe/functions.php:1249
 msgid "Authentication failure."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1193
+#: core/includes/gateways/stripe/functions.php:1250
 msgid "This payment method is invalid."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1194
+#: core/includes/gateways/stripe/functions.php:1251
 msgid "Payment attempt failed."
 msgstr ""
 
-#: core/includes/gateways/stripe/functions.php:1195
+#: core/includes/gateways/stripe/functions.php:1252
 msgid "Setup attempt failed."
 msgstr ""
 
-#: core/includes/install.php:213 core/includes/scripts.php:291
+#: core/includes/install.php:211 core/includes/scripts.php:291
 #: legacy/includes/forms.php:539 legacy/includes/scripts.php:38
 msgid "Register"
 msgstr ""
 
-#: core/includes/install.php:226
+#: core/includes/install.php:224
 msgid "Welcome! This is your success page where members are redirected after completing their registration."
 msgstr ""
 
-#: core/includes/install.php:251
+#: core/includes/install.php:249
 msgid "Your Membership"
 msgstr ""
 
-#: core/includes/install.php:278
+#: core/includes/install.php:276
 msgid "Edit Your Profile"
 msgstr ""
 
-#: core/includes/install.php:305
+#: core/includes/install.php:303
 msgid "Update Billing Card"
 msgstr ""
 
-#: core/includes/install.php:343
+#: core/includes/install.php:341
 msgid "Please verify your email address"
 msgstr ""
 
-#: core/includes/install.php:344
+#: core/includes/install.php:342
 msgid "Hi %s,"
 msgstr ""
 
-#: core/includes/install.php:345
+#: core/includes/install.php:343
 msgid "Please click here to verify your email address:"
+msgstr ""
+
+#: core/includes/install.php:348 core/includes/install.php:362
+#: core/includes/install.php:376
+msgid "Your %s membership has been activated"
+msgstr ""
+
+#: core/includes/install.php:349 core/includes/install.php:363
+#: core/includes/install.php:377 core/includes/install.php:391
+#: core/includes/install.php:406 core/includes/install.php:420
+#: core/includes/install.php:443
+msgid "Hi %displayname%,"
 msgstr ""
 
 #: core/includes/install.php:350 core/includes/install.php:364
 #: core/includes/install.php:378
-msgid "Your %s membership has been activated"
-msgstr ""
-
-#: core/includes/install.php:351 core/includes/install.php:365
-#: core/includes/install.php:379 core/includes/install.php:393
-#: core/includes/install.php:408 core/includes/install.php:422
-#: core/includes/install.php:430
-msgid "Hi %displayname%,"
-msgstr ""
-
-#: core/includes/install.php:352 core/includes/install.php:366
-#: core/includes/install.php:380
 msgid "Your %s membership has been activated."
 msgstr ""
 
-#: core/includes/install.php:358 core/includes/install.php:372
-#: core/includes/install.php:386
+#: core/includes/install.php:356 core/includes/install.php:370
+#: core/includes/install.php:384
 msgid "%s (%s) is now a member of %s"
 msgstr ""
 
-#: core/includes/install.php:359 core/includes/install.php:373
-#: core/includes/install.php:387
+#. translators: %s: The membership level template tag.
+
+#: core/includes/install.php:357 core/includes/install.php:371
+#: core/includes/install.php:385 core/includes/install.php:435
 msgid "Membership level: %s"
 msgstr ""
 
-#: core/includes/install.php:392
+#: core/includes/install.php:390
 msgid "Your %s membership has been cancelled"
 msgstr ""
 
-#: core/includes/install.php:394
+#: core/includes/install.php:392
 msgid "Your %s membership has been cancelled. You will retain access to content until %s."
 msgstr ""
 
-#: core/includes/install.php:400
+#: core/includes/install.php:398
 msgid "%s (%s) has cancelled their membership to %s"
 msgstr ""
 
-#: core/includes/install.php:401 core/includes/install.php:416
+#: core/includes/install.php:399 core/includes/install.php:414
 msgid "Their membership level was: %s"
 msgstr ""
 
-#: core/includes/install.php:402
+#: core/includes/install.php:400
 msgid "They will retain access until: %s"
 msgstr ""
 
-#: core/includes/install.php:407
+#: core/includes/install.php:405
 msgid "Your %s membership has expired"
 msgstr ""
 
-#: core/includes/install.php:409
+#: core/includes/install.php:407
 msgid "Your %s membership has expired."
 msgstr ""
 
-#: core/includes/install.php:415
+#: core/includes/install.php:413
 msgid "%s's (%s) membership has expired."
 msgstr ""
 
-#: core/includes/install.php:421
+#: core/includes/install.php:419
 msgid "Your %s payment has been received"
 msgstr ""
 
-#: core/includes/install.php:423
+#: core/includes/install.php:421
 msgid "Your %s payment has been received."
 msgstr ""
 
-#: core/includes/install.php:424
-msgid "Payment Amount: "
+#. translators: %s: The amount template tag.
+
+#: core/includes/install.php:423 core/includes/install.php:437
+msgid "Payment amount: %s"
 msgstr ""
+
+#. translators: %s: The invoice URL template tag.
 
 #: core/includes/install.php:425
-msgid "Invoice: "
+msgid "Invoice: %s"
 msgstr ""
 
-#: core/includes/install.php:429
+#. translators: %s: The site name.
+
+#: core/includes/install.php:430
+msgid "New payment on %s"
+msgstr ""
+
+#. translators: %1$s: The display name template tag, %2$s: The username
+#. template tag.
+
+#: core/includes/install.php:433
+msgid "A payment has been received from %1$s (%2$s)."
+msgstr ""
+
+#: core/includes/install.php:442
 msgid "Your %s payment could not be processed"
 msgstr ""
 
-#: core/includes/install.php:431
+#: core/includes/install.php:444
 msgid "Your %s renewal payment could not be processed. Please log in and update your billing information so we can reattempt payment."
 msgstr ""
 
-#: core/includes/install.php:436
+#: core/includes/install.php:449
 msgid "Renewal payment failed on %s"
 msgstr ""
 
-#: core/includes/install.php:438
+#: core/includes/install.php:451
 msgid "%s's (%s) renewal payment failed to be processed."
 msgstr ""
 
@@ -6722,19 +6749,19 @@ msgstr ""
 msgid "Turkish Lira (&#8356;)"
 msgstr ""
 
-#: core/includes/misc-functions.php:1618
+#: core/includes/misc-functions.php:1617
 msgid "New"
 msgstr ""
 
-#: core/includes/misc-functions.php:1620
+#: core/includes/misc-functions.php:1619
 msgid "Upgrade"
 msgstr ""
 
-#: core/includes/misc-functions.php:1621
+#: core/includes/misc-functions.php:1620
 msgid "Downgrade"
 msgstr ""
 
-#: core/includes/misc-functions.php:1653
+#: core/includes/misc-functions.php:1652
 msgid "This content is restricted to subscribers"
 msgstr ""
 
@@ -6755,7 +6782,7 @@ msgid "Please choose a membership level"
 msgstr ""
 
 #: core/includes/registration-functions.php:122
-#: core/includes/registration-functions.php:1292
+#: core/includes/registration-functions.php:1305
 msgid "Invalid membership level selected"
 msgstr ""
 
@@ -6811,63 +6838,63 @@ msgstr ""
 msgid "This email address is already in use. If this is your email address, please <a href=\"%s\">log in</a> and try again."
 msgstr ""
 
-#: core/includes/registration-functions.php:1078
-#: core/includes/registration-functions.php:1146
+#: core/includes/registration-functions.php:1091
+#: core/includes/registration-functions.php:1159
 #: core/templates/register-common.php:102
 #: core/templates/register-total-details.php:53
 msgid "free"
 msgstr ""
 
-#: core/includes/registration-functions.php:1085
+#: core/includes/registration-functions.php:1098
 msgid "Free trial - %s"
 msgstr ""
 
-#: core/includes/registration-functions.php:1139
+#: core/includes/registration-functions.php:1152
 msgid " every %1$s %2$s"
 msgstr ""
 
-#: core/includes/registration-functions.php:1262
+#: core/includes/registration-functions.php:1275
 msgid "Invalid membership level selected."
 msgstr ""
 
-#: core/includes/registration-functions.php:1271
+#: core/includes/registration-functions.php:1284
 msgid "A payment method is required for this membership level."
 msgstr ""
 
-#: core/includes/registration-functions.php:1407
+#: core/includes/registration-functions.php:1420
 msgid "Renew"
 msgstr ""
 
-#: core/includes/registration-functions.php:1411
+#: core/includes/registration-functions.php:1424
 msgid "Change"
 msgstr ""
 
-#: core/includes/registration-functions.php:1416
+#: core/includes/registration-functions.php:1429
 msgid "or"
 msgstr ""
 
-#: core/includes/registration-functions.php:1426
+#: core/includes/registration-functions.php:1439
 msgid "You are signing up for a new membership."
 msgstr ""
 
-#: core/includes/registration-functions.php:1426
+#: core/includes/registration-functions.php:1439
 msgid "Click here to renew or change an existing membership instead."
 msgstr ""
 
-#: core/includes/registration-functions.php:1483
+#: core/includes/registration-functions.php:1496
 msgid "You are changing your \"%1$s\" membership. <a href=\"%2$s\">Click here to sign up for an additional membership instead.</a>"
 msgstr ""
 
-#: core/includes/registration-functions.php:1516
+#: core/includes/registration-functions.php:1529
 msgid "Proration Credit"
 msgstr ""
 
-#: core/includes/registration-functions.php:1561
+#: core/includes/registration-functions.php:1574
 msgid "If you upgrade or downgrade your account, the new membership will be prorated up to %s for the first payment. Prorated prices are shown below."
 msgstr ""
 
-#: core/includes/registration-functions.php:2152
-#: core/includes/registration-functions.php:2153
+#: core/includes/registration-functions.php:2175
+#: core/includes/registration-functions.php:2176
 msgid "Next Renewal Due"
 msgstr ""
 
@@ -7030,7 +7057,7 @@ msgstr ""
 msgid "Please wait . . . "
 msgstr ""
 
-#: core/includes/shortcodes.php:943 restrictcontent.php:1058
+#: core/includes/shortcodes.php:943 restrictcontent.php:1082
 msgid "Close"
 msgstr ""
 
@@ -7287,7 +7314,7 @@ msgstr ""
 msgid "Display Name"
 msgstr ""
 
-#: core/templates/profile-editor.php:58 restrictcontent.php:858
+#: core/templates/profile-editor.php:58 restrictcontent.php:882
 msgid "Email Address"
 msgstr ""
 
@@ -7877,71 +7904,71 @@ msgstr ""
 msgid "What's included with Pro?"
 msgstr ""
 
-#: restrictcontent.php:319
+#: restrictcontent.php:343
 msgid "This plugin is not fully active."
 msgstr ""
 
-#: restrictcontent.php:330
+#: restrictcontent.php:354
 msgid "Requires %s (%s), but (%s) is installed."
 msgstr ""
 
-#: restrictcontent.php:341
+#: restrictcontent.php:365
 msgid "Requires %s (%s), but it appears to be missing."
 msgstr ""
 
-#: restrictcontent.php:352
+#: restrictcontent.php:376
 msgid "Requirements"
 msgstr ""
 
-#: restrictcontent.php:363
+#: restrictcontent.php:387
 msgid "Kadence Memberships Pro Requirements"
 msgstr ""
 
-#: restrictcontent.php:725
+#: restrictcontent.php:749
 msgid "Downgrade to Legacy Kadence Memberships?"
 msgstr ""
 
-#: restrictcontent.php:731
+#: restrictcontent.php:755
 msgid "After downgrading, you will lose access to most of the features in Kadence Memberships 3, including membership levels and collecting payments. Additionally, content restrictions made in Kadence Memberships 3 will be lost after downgrading. Learn More"
 msgstr ""
 
-#: restrictcontent.php:840
+#: restrictcontent.php:864
 msgid "Note: The Kadence Memberships Stripe payment gateway integration includes an additional 2% processing fee. You can remove the processing fee by upgrading to Kadence Memberships Pro."
 msgstr ""
 
-#: restrictcontent.php:855
+#: restrictcontent.php:879
 msgid "Activate the Stripe Payment Gateway"
 msgstr ""
 
-#: restrictcontent.php:856
+#: restrictcontent.php:880
 msgid "Enter your email to setup the Stripe payment gateway and get tips about using Kadence Memberships"
 msgstr ""
 
-#: restrictcontent.php:861
+#: restrictcontent.php:885
 msgid "Accept Privacy Policy"
 msgstr ""
 
-#: restrictcontent.php:868
+#: restrictcontent.php:892
 msgid "Setup Stripe and Subscribe"
 msgstr ""
 
-#: restrictcontent.php:871
+#: restrictcontent.php:895
 msgid "Skip, setup payment gateway"
 msgstr ""
 
-#: restrictcontent.php:961
+#: restrictcontent.php:985
 msgid "Thinking about upgrading? Check out our pro-only features. <a target=\"_blank\" href=\"%s\">Why Go Pro →</a>"
 msgstr ""
 
-#: restrictcontent.php:985
+#: restrictcontent.php:1009
 msgid "<img src=\"%s\"><div><strong>Save 40%% off new purchases with coupon code BFCM22&nbsp; </strong>| Black Friday Sale November 21 - 29. &nbsp;<a target=\"_blank\" href=\"%s\"><strong>Shop now</strong></a></div>"
 msgstr ""
 
-#: restrictcontent.php:1051
+#: restrictcontent.php:1075
 msgid "Black Friday Sale: Save 40% on Kadence Memberships Pro. Make your purchase before 12/3/24"
 msgstr ""
 
-#: restrictcontent.php:1062
+#: restrictcontent.php:1086
 msgid "Close button"
 msgstr ""
 
